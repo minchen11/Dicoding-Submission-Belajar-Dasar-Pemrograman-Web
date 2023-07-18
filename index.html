@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Act to Figure</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- kriteia elemen header -->
+  <header>
+    <div class="sampul">
+      <img src="assets/img/logo.png" width="480px" height="300px"><br>
+      <h1><font color="#f8192e"><b>Act</font> Toys</b></h1>
+    </div>
+     
+    
+    <nav>
+      <ul>
+        <li><a href="#Article">Beranda</a></li>
+        <li><a href="#galeri">Galeri</a></li>
+        <li><a href="#biodata">Bio</a></li>
+      </ul>
+    </nav> 
+  </header>
+
+   <!-- kriteia elemen main -->
+  <main>
+        
+    <div id="content">
+      <article id="Article"class="card">
+        <h2>Artikel</h2>
+        <p>
+          Action Figur: Membumikan Karakter Pahlawan dalam Genggaman
+        </p>
+
+        <p>
+          Apakah Anda pernah merasa terinspirasi oleh karakter pahlawan dalam film, buku komik, atau permainan video? Mungkin Anda telah berimajinasi menjadi pahlawan itu sendiri, melindungi dunia dari kejahatan. Nah, action figur hadir untuk mewujudkan impian Anda.
+        </p>
+          
+        <p>
+          Action figur adalah boneka kecil yang dirancang dengan detail untuk menggambarkan karakter pahlawan favorit kita. Mereka biasanya terbuat dari plastik atau bahan komposit, dan memiliki berbagai artikulasi yang memungkinkan pengguna untuk mengubah posisi dan aksi karakter tersebut. Mereka adalah miniatur yang hidup, membawa karakter yang kita kagumi ke dunia nyata.
+        </p>
+          
+        <p>
+          Tidak hanya anak-anak yang menikmati koleksi action figur, tetapi juga banyak orang dewasa yang terpesona oleh keindahan dan kesempurnaan detail pada boneka-boneka ini. Beberapa orang mengumpulkan action figur sebagai hobi, menampilkan mereka dalam rak khusus atau diorama yang rumit. Seiring dengan perkembangan teknologi, action figur juga semakin canggih dengan fitur suara, cahaya, dan bahkan gerakan otomatis.
+        </p>
+
+        
+        
+        <footer>
+          Tanggal: 19 Juli 2023
+        </footer>
+
+      </p></p>
+    </article>
+
+    <article id="galeri" class="card">
+      <h2>Galeri</h2>
+      <img src="assets/img/spiderman.jpeg" class="image" alt="galeri" width="230" height="370" onclick="showImagePopup('assets/img/spiderman.jpeg')">
+      <img src="assets/img/re.jpeg" class="image" alt="galeri" width="230" height="370" onclick="showImagePopup('assets/img/re.jpeg')">
+      <img src="assets/img/sasuke.jpeg" class="image" alt="galeri" width="230" height="370" onclick="showImagePopup('assets/img/sasuke.jpeg')">
+      <img src="assets/img/hashirama.jpeg" class="image" alt="galeri" width="230" height="370" onclick="showImagePopup('assets/img/hashirama.jpeg')">
+    </article>
+    
+    <div id="imagePopup" class="image-popup">
+      <span class="close" onclick="hideImagePopup()">&times;</span>
+      <img id="popupImage" src="" alt="Popup Image">
+    </div>
+    
+    
+    </div>
+
+     <!-- kriteia elemen aside -->
+    <aside>
+      <div id="biodata" style="text-align:center">
+        <h3>Tentang Saya</h3>
+        <img src="assets/img/amin.jpeg" alt="Foto Saya" class="rounded-image">
+        <p>Biodata:</p>
+        <p><strong>Nama:</strong> Al Amin Husain</p>
+        <p><strong>Umur:</strong> 23 tahun</p>
+        <p><strong>Lokasi:</strong> Makassar</p>
+      </div>
+    </aside>
+  </main>
+
+   <!-- kriteia elemen footer -->
+  <footer>
+    &copy; 2023 Al Amin Husain Muharram Ishaq
+  </footer>
+
+  <script src="script.js"></script>
+  <button id="scrollToTopBtn" onclick="scrollToTop()">&uarr;</button>
+
+
+</body>
+</html>
